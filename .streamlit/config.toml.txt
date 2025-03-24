@@ -1,0 +1,7 @@
+[theme]
+base="Light"
+primaryColor="#FF9900"  # Orange Amazon
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F3F3F3"
+textColor="#000000"
+font="sans serif"
