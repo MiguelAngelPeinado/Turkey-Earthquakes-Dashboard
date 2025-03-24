@@ -17,6 +17,22 @@ st.set_page_config(
 )
 
 
+# === Custom CSS to force light theme ===
+st.markdown(
+    """
+    <style>
+    body, .stApp {
+        background-color: #FFFFFF !important;
+        color: #000000 !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+
 # === Custom CSS for styling ===
 st.markdown(
     """
