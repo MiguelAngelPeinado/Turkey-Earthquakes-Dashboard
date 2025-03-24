@@ -93,7 +93,7 @@ df = load_data()
 st.markdown(
     """
     <div style='display: flex; align-items: center;'>
-        <img src='https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg' width='30' style='margin-right:10px;'/>
+        <img src='https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg' width='40' style='margin-right:10px;'/>
         <h1 style='margin: 0px; color: #232f3e;'>Türkiye Earthquakes (1915-2025)</h1>
     </div>
     """,
