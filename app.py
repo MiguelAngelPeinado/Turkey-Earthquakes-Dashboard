@@ -151,7 +151,7 @@ with tabs[0]:
         unsafe_allow_html=True,
     )
 
-    col1, col2, col3, col4, col5 = st.columns(5)
+    col1, col2, col3, col4, col5 = st.columns([1, 1, 2, 1, 2])
 
     # --- KPIs existentes ---
     with col1:
