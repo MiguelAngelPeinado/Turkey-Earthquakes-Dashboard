@@ -65,7 +65,7 @@ st.markdown(
 # === Load Data ===
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/turkey_earthquakes_historical.csv")
+    df = pd.read_csv("Data/turkey_earthquakes_historical.csv")
     df["Datetime"] = pd.to_datetime(df["Date"] + " " + df["Time"], errors="coerce")
     df["Year"] = df["Datetime"].dt.year
     df["Month"] = df["Datetime"].dt.month
