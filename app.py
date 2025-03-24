@@ -27,10 +27,8 @@ st.markdown(
     }
     </style>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True,
 )
-
-
 
 
 # === Custom CSS for styling ===
@@ -61,15 +59,15 @@ st.markdown(
 
 
     .kpi-value {
-        font-size: 30px;
-        font-weight: bold;
-        color: #232f3e;
-        margin: 0;
+        font-size: 30px !important;
+        font-weight: bold !important;
+        color: #232f3e !important;
+        margin: 0 !important;
     }
     .kpi-label {
-        font-size: 20px;
-        color: #555555;
-        margin: 4px 0 0 0;
+        font-size: 20px !important;
+        color: #555555 !important;
+        margin: 4px 0 0 0 !important;
     }
     </style>
 """,
@@ -593,7 +591,7 @@ with tabs[3]:
 
     st.markdown(
         """
-        <div style='background-color:rgba(255, 99, 71, 0.05); padding:15px; border-radius:10px;'>
+        <div style='background-color:rgba(255, 99, 71, 0.2); padding:15px; border-radius:10px;'>
             <h4 style='color:#232f3e;'>🎯 Project Purpose & Methodology</h4>
             <ul style='color:#232f3e;'>
                 <li><strong>Objectives:</strong> Provide an exploratory analysis of Türkiye's seismic activity and offer interactive, public-friendly insights.</li>
